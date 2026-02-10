@@ -6,4 +6,7 @@ public class bidangDuaDimensi{
   public void info(){
     System.out.println(this.nama);
   }
+  public double luas(){
+    return 0;
+  }
 }

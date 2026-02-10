@@ -5,7 +5,7 @@ public class bujurSangkar extends bidangDuaDimensi{
     this.sisi = sisi;
   }
   @Override 
-  public double luas(double sisi){
+  public double luas(){
     return sisi * sisi;
   }
 }

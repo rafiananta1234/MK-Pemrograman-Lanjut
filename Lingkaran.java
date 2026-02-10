@@ -5,7 +5,8 @@ public class Lingkaran extends bidangDuaDimensi{
     super(nama);
     this.r = r;
   }
+  @Override
   public double luas(){
-    return 3.14 * r * r;
+    return Math.PI * r * r;
   }
 }
